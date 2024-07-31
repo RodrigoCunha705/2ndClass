@@ -1,0 +1,20 @@
+Program tabuada;
+	var
+	nome: string;
+	num1, num2: Integer;
+Begin
+	 writeln('Programa Tabuada Simples');  
+	 writeln('##### Bem Vindo #####');	
+   writeln('Digite seu nome');
+   readln(nome);
+   writeln('Olá ', nome, 'Digite um numero');
+   readln(num1);
+   writeln('');
+   writeln('Digite outro numero');
+	 readln(num2);
+	 writeln('');
+	 writeln('Digite outro numero');
+   writeln('');
+   writeln(nome,' a soma dos valores é = ', num1+ num2);
+	 readkey();    
+End.
